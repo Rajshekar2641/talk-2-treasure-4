@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/GUNDUPOOJA/talk-2-group-5/issues"
   },
-  "homepage": "https://github.com/GUNDUPOOJA/talk-2-group-5#readme"
+  "homepage": "https://github.com/GUNDUPOOJA/talk-2-group-5#readme",
+  "devDependencies": {
+    "jest": "^26.6.3",
+  "prettier": "2.2.1"
 }
+  }
