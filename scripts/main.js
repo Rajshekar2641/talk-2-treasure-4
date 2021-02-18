@@ -1,16 +1,22 @@
 import locationsArray from './locations.js';
 
-let locationElement1 = document.getElementById("colorSelector1");
-let locationElement2 = document.getElementById("colorSelector2");
+// let locationElement1 = document.getElementById("colorSelector1");
+// let locationElement2 = document.getElementById("colorSelector2");
 let device, location;
 
 
 
 window.addEventListener('load', main);
-locationElement1.addEventListener('click', onClickColor1);
-locationElement1.addEventListener('touch', onClickColor1);
-locationElement2.addEventListener('click', onClickColor2);
-locationElement2.addEventListener('touch', onClickColor2);
+window.addEventListener('DOMContentLoaded', function () {
+    let locationElement1 = document.getElementById("colorSelector1");
+    let locationElement2 = document.getElementById("colorSelector2");
+
+    locationElement1.addEventListener('click', onClickColor1);
+    locationElement1.addEventListener('touch', onClickColor1);
+    locationElement2.addEventListener('click', onClickColor2);
+    locationElement2.addEventListener('touch', onClickColor2);
+    
+});
 
 function main() {
     console.log('Page is fully loaded');
