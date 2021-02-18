@@ -141,8 +141,7 @@ function isInsideQuad(device, location) {
         }
 
     } catch (err) {
-        return 'Throws error';
         console.log("Exception: " + err);
     }
 }
-export default isInsideQuad;
+export default isValidCoordinates;
