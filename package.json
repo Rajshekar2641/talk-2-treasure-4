@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Talk2App",
   "main": "app.js",
+  "type": "module",
   "scripts": {
     "test": "npm run test"
   },

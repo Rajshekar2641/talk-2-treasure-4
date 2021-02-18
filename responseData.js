@@ -1,4 +1,4 @@
 let response = {
-    colorComponent1: "Color is Blue and the dice value is",
+    colorComponent1: "Hello! The target location is ",
     colorComponent2: "Color is Gray and the dice value is"
 }
