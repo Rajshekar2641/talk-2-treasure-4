@@ -19,6 +19,7 @@ window.addEventListener('DOMContentLoaded', function () {
 });
 
 function main() {
+    return 'Page is fully loaded';
     console.log('Page is fully loaded');
 }
 
@@ -140,6 +141,8 @@ function isInsideQuad(device, location) {
         }
 
     } catch (err) {
+        return 'Throws error';
         console.log("Exception: " + err);
     }
 }
+export default isInsideQuad;
