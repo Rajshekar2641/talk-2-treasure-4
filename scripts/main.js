@@ -1,4 +1,4 @@
-import locationsArray from './locations.js';
+import locationsArray from '../locations.js';
 
 // let locationElement1 = document.getElementById("colorSelector1");
 // let locationElement2 = document.getElementById("colorSelector2");
