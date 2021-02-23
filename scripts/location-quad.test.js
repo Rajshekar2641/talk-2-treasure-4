@@ -11,3 +11,7 @@ describe('isValidCoordinates function', () => {
       expect(isValidCoordinates({})).toEqual(false);
     });
   });
+
+  test('isValid', () =>) {
+    expect(isValid({}))
+  }
